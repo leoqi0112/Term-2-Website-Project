@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+body {
+	background-color: #031634;
+	background-image:  url('stardewbackground.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+p {
+	font-family: 'Odibee Sans', ;
+	line-height: 2;
+	
+}
+
+.container {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	height: 700px;
+}
+
+.content {
+	background-color: #fcf3b0;
+	margin-top: 30px;
+	box-shadow: 5px 5px 10px 10px #fcf3b0;
+}
+
+
+img {
+	float: top;
+}
+
+.chicken{
+	margin: 1px;
+	float: left;
+}
+
+.developer{
+	float:right;
+}
+
+ul{
+	background-color:  #394fc2;
+	background-position: bottom;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+li a:hover:not(.current) {
+	background-color: #131355;
+}
+
+
+li{
+	float: left;
+	width: 175px;
+}
+			
+li a{
+	color: white;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	border-right: 1px solid white;
+}
+
+.current {
+	background: white;
+	color: #394fc2;
+}
+
+
+
+
+
+
