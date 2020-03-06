@@ -3,17 +3,67 @@
 <html>
 
 	<head>
+		<link rel="icon" href="chicken.png" type="image/gif" sizes="16x16">
 		<link rel="stylesheet" type="text/css" href="style.css"	>
 		<style>
-			.content {
-				height: 320px;
+			@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+			
+			h1{
+				font-family: 'Roboto Slab';
 			}
-
+			
+			h3{
+				background-color:  #fcf3b0;
+				box-shadow: 5px 5px 10px 10px #fcf3b0;
+			}
+			
+			.content{
+				width: 700px;
+				margin-left: 250px;
+				margin-right: 10px;
+				margin-top: 50px;
+				height: 380px;
+			}
+			
+			.chart {
+				margin-left: 1px;
+				width: 350px;
+				height: 450px;
+				padding: 50px;
+				margin-top: 1px;
+			}
 			iframe {
 				height: 220px;
 				width: 350px;
 				margin-top: 5px;
 				margin-right:5px;
+			}
+			
+			table {
+			border-collapse: non-collapse;
+			width: 350px;
+			}
+			
+			tr:nth-child(even) {
+				background-color: rgba(255, 255, 255, 0.8);
+			}
+			
+			tr:nth-child(odd) {
+				background-color: rgba(255, 255, 255, 0.8);
+			}
+			
+			td:hover {
+				background-color: #8FB29A;
+				color: white;
+			}
+			
+			th, td {
+				padding: 10px;
+			}
+			
+			th {
+				background-color: #439773;
+				color: white;
 			}
 		</style>
 	</head>
@@ -32,6 +82,7 @@
 	  <li><a class="current" href="stardewvalleygameplay.html">Gameplay</a></li>
 	  <li><a href="stardewvalleypersonalconnection.html">Gameconnection</a></li>
 	  <li><a href="stardewvalleygallery.html">Gallery</a></li>
+	  	  <li><a href="stardewvalleyitems.html">Rareitems</a></li>
 	</ul>
 
 
@@ -39,20 +90,49 @@
 
 <img class="chicken" src="chicken.png" width=60px>
 
+<h1> Gameplay </h1>
+
 <div style="float: right; width=100px; height=50px;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FjJx6u_5RdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <p>
 The game starts off with you creating your own character and selecting from six unique starting farm maps. You start off owning a small plot of land with a small house. At the start players must clear out the wilderness to run the farm. They would start by tending crops and livestocks and generating money off of them; the revenue they earn could be used to expand farm facilities. Later in game, there could also be interactions with other players in various settings.
-
-
 </p>
 
-
 </div>
 
 </div>
+
+<div class="chart">
+
+<table>
+			<tr>
+				<th>Lvl</th> <th>Experience</th> <th>Total Experience</th> 
+			</tr>
+			<tr>
+				<th>1</th> 	<td>100</td> <td>100</td> 
+			</tr>
+			<tr>
+				<th>2</th> 	<td>+280</td> <td>380</td>
+			</tr>
+			<tr>
+				<th>3</th> 	<td>+390</td> <td>770</td> 
+			</tr>
+			<tr>
+				<th>4</th> 	<td>+530</td> <td>1300</td> 
+			</tr>
+			<tr>
+				<th>5</th> 	<td>+850</td> <td>2150</td> 
+			</tr>
+		</table>
+		
+<h3>
+To progress in the game, as you level up, you will acquire new skills.
+All skills need the experience points to increase skill level (shown above)
+</h3>
+</div>
+
 
 </body>
 

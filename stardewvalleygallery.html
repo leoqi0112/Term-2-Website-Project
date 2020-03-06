@@ -3,17 +3,96 @@
 <html>
 
 	<head>
+		<link rel="icon" href="chicken.png" type="image/gif" sizes="16x16">
 		<link rel="stylesheet" type="text/css" href="style.css"	>
 		<style>
+		h1 {
+			color:#9ea6bc;
+		}
 		
+		body {
+			background-color: #031634;
+			background-image:  url('background2.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			
+		}
+		
+		
+		div.gallery {
+			margin: 20px; 
+			border: 1px solid #ccc;
+			float: left;
+			width: 240px;
+			background-color:#232427;
+			}
+
+		div.gallery:hover {
+			border: 1px solid #271A21;
+			}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+			}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+			color: #9ea6bc;
+			}
 		</style>
 	</head>
 
-
-
-
-
 <body>
 
+<img src="title.png">
 
+<div class="container">
+	<ul>
+	  <li><a href="stardewvalleyoverview.html">Overview</a></li>
+	  <li><a href="stardewvalleygameplay.html">Gameplay</a></li>
+	  <li><a href="stardewvalleypersonalconnection.html">Gameconnection</a></li>
+	  <li><a class="current" href="stardewvalleygallery.html">Gallery</a></li>
+	  	  <li><a href="stardewvalleyitems.html">Rareitems</a></li>
+	</ul>
+	
+<h1> Gallery </h1>
+
+<div class="gallery">
+  <a target="_blank" href="gallery2.png">
+    <img src="gallery2.png" alt="Selecting Screen" width="600" height="400">
+  </a>
+  <div class="desc">This is how you customize your character and set up the world</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery3.jpg">
+    <img src="gallery3.jpg" alt="Starting map" width="900" height="600">
+  </a>
+  <div class="desc">This is is starting farm with the original settings</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery1.png">
+    <img src="gallery1.png" alt="Arcadia Farm" width="900" height="600">
+  </a>
+  <div class="desc">This is a unique farm built in the quarry</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Hemingway.jpg">
+    <img src="Hemingway.jpg" alt="Hemingway" width="900" height="600">
+  </a>
+  <div class="desc">This a player role playing as Earnest Hemingway </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="insideroom.png">
+    <img src="insideroom.png" alt="inside room" width="900" height="600">
+  </a>
+  <div class="desc">This a scene of a player inside a house </div>
+</div>
 </body>
+
+</html>
